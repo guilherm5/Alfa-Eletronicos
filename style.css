@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400&display=swap');
+
+body{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Montserrat', sans-serif;
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-weight:400;
+}
+li{
+    list-style-type: none;
+}
+h1{
+    color: white;
+    font-weight: 100;
+}
+header{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 20px;
+    background-color:#0D5DAB;
+    gap: 700px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+
+}
+ul{
+    display: flex;
+    gap: 30px;
+    margin: 10px;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 150px;
+}
+h2,h3{
+    margin:5px;
+    font-weight: 100;
+}
+img{
+    margin-top:50px;
+}
+section{
+    background-color: #0D5DAB;
+}
+section, .secao-produtos, h4{
+    color: white;
+    font-weight: 300;
+    font-size: 15pt;
+}
+.secao-produtos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+    text-align: center;
+    padding: 20px;
+    justify-content: center;
+}
+p{
+    font-weight: 900;
+}
+input{
+    border-radius: 20px;
+    padding: 15px;
+    margin: 5px;
+    width: 300px;
+
+}
+button{
+    margin-top: 10px;
+    border-radius: 10px;
+    padding: 10px;
+    width: 30%;
+}
+h4{
+    margin: 2px;
+}
