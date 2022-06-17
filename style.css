@@ -3,7 +3,7 @@
 body{
     padding: 0px;
     margin: 0px;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat', verdana, sans-serif;
 }
 a{
     text-decoration: none;
@@ -84,4 +84,8 @@ button{
 h4{
     margin: 2px;
 }
+a:hover{
+    transform: scale(1.1);
+    transition: all 0.3s;
+ }
 
