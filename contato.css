@@ -63,3 +63,11 @@ input{
     width: 300px;
 
 }
+footer{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+ }
+ footer > a{
+     margin-bottom:20px;
+ }
